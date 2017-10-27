@@ -1,0 +1,4 @@
+Кошкина Ульяна Explorer#2:
+ - подключение библиотеки boost/filesystem.hpp
+ - разбиение на потоки std::future и std::async
+ - сборка TGZ пакета
