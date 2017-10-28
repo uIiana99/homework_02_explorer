@@ -1,0 +1,10 @@
+the record of modifications:
+
+name:	"file.dat"
+size:	1.436 Kb
+date:	Mon Oct 23 05:37:44 2017
+
+name:	"file.dat"
+size:	1.436 Kb
+date:	Mon Oct 23 05:37:44 2017
+
