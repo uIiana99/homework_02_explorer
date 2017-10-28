@@ -30,7 +30,6 @@ install(TARGETS explorer
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
 install(EXPORT explorer-config DESTINATION cmake)
 
-#add_executable(explorer ${CMAKE_CURRENT_SOURCE_DIR}/sources/explorer.cpp)
 target_link_libraries(${PROJECT_NAME} -lboost_system -lboost_filesystem -pthread)
 
 include(CPackConfig.cmake)
