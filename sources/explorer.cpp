@@ -11,6 +11,9 @@ void get_data(const path _path);
 int main(int argc, char const *argv[]) {
     try {
         string _path;
+        
+        //  Проверка на существование переменной среды
+        if(getenv("EXPLORER_LOG_PATH") == nullptr) throw logic_error("do not found \"EXPLORER_LOG_PATH\"");
 
         //  Исключение - вызов программы без параметра
         if(argc < 2) throw logic_error("do not have any adress");
